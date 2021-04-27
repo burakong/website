@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Burak Ongün</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="burak.css">
+  <script src="burak.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img id="pic" class="rounded-circle" alt="Cinque Terre" src="pic.jpeg" alt="logo" style="width:100px;">
+    </a>
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/burak-ong%C3%BCn-3a16a81bb/">LinkedIn</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.fupa.net/spieler/burak-onguen-1118975.html">Football</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.transfermarkt.de/burak-ongun/profil/spieler/617918">Transfermarkt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/burakong/website">Git Hub</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Burak Ongün</h1>
+    <p id="introduction">Hello! My name is Burak and I'm studying business informatics at the "Hochschule für Technik
+      und Wirtschaft
+      Berlin."</p>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>About Me</h3>
+        <p>I am a full stack developer and database administrator. I am interested in building
+          Enterprise-Resource-Planning-Systems and similar software topics.</p>
+        <p>I've also been actively playing football in a club since I was 5, that's why i can assess how important it is
+          to act as a team in order to be successful.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Projects</h3>
+        <p class="fett">Full-Stack-Developer by Betterguards Technology GmbH</p>
+        <p>My tasks were:</p>
+        <ol class="romanOl">
+          <li>business analysis</li>
+          <li>restructuring the Database</li>
+          <li>develope a backend application with Spring</li>
+          <li>develope a frontend application with html, css, javascript and ajax</li>
+        </ol>
+        <p class="fett">eHealth System (Management System)</p>
+        <p>java programming in Eclipse IDE</p>
+
+        <p class="fett">Oracle DB-Project</p>
+        <p>Modeling of data models, modification and execution of SQL queries.</p>
+
+        <p class="fett">Contract Management Project</p>
+        <p>Problem analysis, solution finding and strategy development, implementation of the strategy.</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Skills</h3>
+        <p>Welcome to my Skill-matrix. Now I will rank my skills from 1-10, with 10 being the best and 1 being the worst
+        </p>
+        <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      </div>
+    </div>
+    <div class="row my-row">
+      <div class="col">
+        <div class="wrap">
+          <button class="button" onclick="onClick()">Created by<br>Burak Ongün</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

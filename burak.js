@@ -34,3 +34,18 @@ window.onload = function () {
     });
     chart.render();
 }
+function generateCard(){
+    var myCard=document.getElementById("chess")
+    myCard.innerHTML="";
+    var card = `
+    <div class="card">
+        <h3 class="card-header text-center font-weight-bold text-uppercase py-4">
+          Editable table
+        </h3>
+        <div class="card-body">
+            Some Text ...
+        </div>
+    </div>
+    `
+    myCard.innerHTML=card;
+}
